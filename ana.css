@@ -1,0 +1,117 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+body{
+    background-color: white ;
+}
+#sayfa{
+    border-style: solid ;
+    border-color: black ;
+    border-radius: 15px 20px ;
+    width: 1440px ;
+    min-height: 1360px ;
+    margin: auto ;
+}
+header{
+    border-style: none ;
+    border-radius: 13px ;
+    width: 1420px ;
+    height: 150px ;
+    margin: auto ;
+    background-image: url(banner.png) ;
+    background-repeat: no-repeat ;
+    background-size: 1600px ;
+    background-position: 100px ;
+    padding: 10px ;
+}
+header #logo{
+    width: 150px ;
+    height: 150px ;
+}
+header #title{
+    font-family: 'Times New Roman', Times, serif ;
+    color: orange ;
+    font-size: 90px ;
+    font-weight: bolder ;
+    font-style: italic ;
+    transform: skewX(-15deg) ;
+    font-variant: normal  ;
+    text-transform: uppercase ;
+    text-decoration: double   ;
+    letter-spacing: 1px ;
+    word-spacing: 1px ;
+    position: relative ;
+    left: 170px ;
+    top: -130px ;
+    box-shadow: 0px 0px 0px 0px;
+}
+#anamenu{
+    
+    border-style: none ;
+    width: 1440px ;
+    height: 50px ;
+    margin: auto ;
+    background-color: white ;
+}
+article{
+    border-style: none ;
+    width: 1175px ;
+    height: 1115px ;
+    margin: auto ;
+    background-color: antiquewhite ;
+    float: left ;
+    border-radius: 20px ;
+    padding: 10px ;
+}
+aside{
+    border-style: none ;
+    width: 215px ;
+    min-height: 1115px ;
+    margin: auto ;
+    background-color: aqua ;
+    float: right ;
+    border-radius: 20px ;
+    padding: 10px ;
+}
+#anamenu ul{
+    list-style-type: none ;
+}
+#anamenu ul li{
+    border-style: solid ;
+    border-width: 5px ;
+    border-radius: 25px 10px ;
+    border-color: burlywood ;
+    width: 258px ;
+    height: 40px ;
+    background-color: honeydew ;
+    float: left ;
+    padding: 0px 0px ;
+    text-align: center ;
+    margin: 3px 10px ;
+    font-size: 30px ;
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic ;
+    transform: skewX(-15deg) ;
+    text-decoration: none ;
+    font-weight: bolder ;
+}
+#anamenu ul a:link{
+    color: chocolate ;
+}
+#anamenu ul a:visited{
+    color: chocolate ;
+}
+#anamenu ul a:hover{
+    font-size: 29px ;
+    color:red ;
+    text-decoration: underline ;
+}
+aside p{
+    font-size: 20px ;
+}
+article p{
+    font-size: 25px ;
+}
